@@ -4,6 +4,8 @@ should be shown on the left side of the screen and should always be visible to t
 /* TODO: At least on media query */
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -18,8 +20,29 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 300px;
+  width: 300px;
   height: 100%;
+}
+
+#navbar header {
+  margin: 10px;
+  font-size: 1.8rem;
+}
+
+#navbar ul {
+  margin: 10px 0;
+  list-style: none;
+}
+
+/* #navbar ul li {
+  list-style: square;
+} */
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
 }
 
 /* MAIN */
